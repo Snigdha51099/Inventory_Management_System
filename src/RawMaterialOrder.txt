@@ -1,0 +1,14 @@
+create table RawMaterialOrder ( orderId varchar2(10) primary key ,
+ name varchar2(20),
+ supplierId varchar2(20),
+ quantityValue number(10,2),
+ quantityUnit varchar2(20),
+ dateOfOrder Date,
+ dateofDelivery Date,
+ pricePerUnit number(10,2),
+ totalPrice number(10,2),
+   deliveryStatus varchar2(20),
+   warehouseId varchar2(20));
+
+
+insert into RawMaterialOrder values ('1', 'coca-cola','pepsi', 123.23,'100/pc','20-March-2019', '28-March-2019',10.0,123230,'done','100');

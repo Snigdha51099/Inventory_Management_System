@@ -1,0 +1,43 @@
+create table RawMaterialStock(
+orderid varchar(10),
+name varchar(20),
+price_per_unit number(10,2),
+quantityValue number(10,2),
+quantityUnit number(10,2),
+price number(10,2),
+warehouseID varchar(10),
+deliveryDate Date,
+manufacturingDate Date,
+expiryDate Date,
+qualityCheck varchar(10),
+processDate Date);
+
+
+insert into RawMaterialStock values (
+1,
+'kapda',
+12.36,
+350.0,
+2,
+150,
+1001,
+'22-April-2011',
+'22-April-2011',
+'22-April-2011',
+'good',
+'22-April-2011');
+
+
+insert into ProductStock values (
+1,
+'kapda',
+12.36,
+350.0,
+2,
+150,
+1001,
+'22-April-2011',
+'22-April-2011',
+'22-April-2011',
+'good',
+'22-April-2011');

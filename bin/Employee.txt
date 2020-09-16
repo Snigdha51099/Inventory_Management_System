@@ -1,0 +1,10 @@
+create table Employee(
+empId varchar2(10) primary key,
+empName varchar2(20),
+password varchar2(20));
+
+
+
+insert into Employee values ('001','Rajeev mohan','000');
+insert into Employee values ('002','Yogendra chand','123');
+insert into Employee values ('003','Sachin','456');
